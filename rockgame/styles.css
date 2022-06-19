@@ -1,0 +1,172 @@
+
+@font-face {
+  font-family: hide;
+  src: url(Neue/NeueMachina-Ultralight.otf);
+}
+
+@font-face {
+  font-family: hidone;
+  src: url(Neue/NeueMachina-Medium.otf);
+
+}
+
+body {
+  background-color: #CCC;
+}
+
+.selections {
+
+ 
+  display: flex;
+  justify-content: space-between;
+
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.selection {
+ 
+  margin-top: 100px;
+  
+
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /* font-size: 6rem; */
+  transition: 100ms;
+
+}
+
+.selection:hover {
+  transform: scale(1.2);
+}
+
+.results {
+  color: white;
+  max-height: 400px;
+  margin-top: -1rem;
+  display: grid;
+  justify-content: center;
+  padding: 0, 0;
+  grid-template-columns: repeat(2, 0.6fr);
+  justify-items: center;
+  font-family: hide;
+  overflow: hidden;
+}
+
+
+
+.bottone2{
+
+  font-size:xx-large;
+
+  cursor: pointer;
+
+  background: none;
+
+  color: white;
+
+  font-family: hide;
+}
+
+.you{
+
+  font-size:xx-large;
+
+  background: none;
+
+  color: white;
+
+  font-family: hide;
+
+  margin-bottom: 25px;
+
+
+}
+
+.computer{
+
+  font-size:xx-large;
+
+  background: none;
+
+  color: white;
+
+  font-family: hide;
+
+  margin-bottom: 25px;
+
+  
+
+
+}
+
+.result-score {
+  margin-left: .1rem;
+  font-size: .9rem;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.result-selection {
+  opacity: 1;
+  transform: scale(0.5);
+
+}
+
+.result-selection.winner{
+  opacity: 1;
+  transform: scale(0.8);
+  filter: brightness(100%) sepia(100%) saturate(100) hue-rotate(0deg);
+}
+
+.final-result{
+  position: fixed;
+  text-align: center;
+  font-family: hide;
+  top: 20%;
+  color: white;
+  font-size: 3rem;
+  display: none;
+  color: yellow;
+  font-weight: 1000;
+}
+
+.final-result-lose{
+  position: fixed;
+  text-align: center;
+  top: 20%;
+  color: white;
+  font-family: hide;
+  font-size:3rem;
+  display: none;
+  color: red;
+  font-weight: 1000;
+}
+
+.bottone3{
+
+  font-size:xx-large;
+
+  cursor: pointer;
+
+  background: none;
+
+  color: white;
+
+  font-family: hide;
+
+  position: fixed;
+  
+  border: 0;
+
+  top: 50%;
+
+  display: none;
+}
+
+.bottone3:hover{
+  color: gray;
+  transform: scale(1.1);
+}

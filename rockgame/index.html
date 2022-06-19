@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title> Freeze</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <script src="sketch.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+
+  <audio id="my_audio" src="diegone.mp3"></audio>
+
+</head>
+<body>
+  <div>
+
+    <a href="home.html"><button class="bottone2">Rules</button></a>
+</div>
+  <div class="selections">
+    <img class="selection" id="roca" data-selection="rock" src ="./forme/3-01.png"/>
+    <img class="selection" id="roca" data-selection="paper" src="./forme/3-02.png"/>
+    <img class="selection" id="roca" data-selection="scissors" src="./forme/3-03.png"/>
+  </div>
+  <div class="results">
+    
+    <div class="you">
+      You
+      <span class="result-score" data-your-score>0</span>
+    
+    </div>
+    <div data-final-column class="computer">
+      Computer
+      <span class="result-score" data-computer-score>0</span>
+
+    </div>
+
+    <div class="final-result">You won!</div>
+    <div class="final-result-lose">You lost</div>
+
+    <button class="bottone3">Play again</button>
+    <!-- <div class="result-selection winner">✊</div>
+    <div class="result-selection">✌</div> -->
+  </div>
+</body>
+</html>
